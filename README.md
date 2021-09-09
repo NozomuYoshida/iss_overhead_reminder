@@ -5,6 +5,9 @@ This is a iss_overhead_reminder by Python. To use, 'smtplib' library installatio
 - Send mail automatically to the designated person whose area is being passed through by ISS.
 
 ## Setup
+- Set the latitude and longitude of your living area (c.f., https://www.latlong.net/)
+  - MY_LAT: your latitude (float)
+  - MY_LONG: your longitude (float)
 - Change the information below
   - SENDER_NAME = 'John Doe'
   - MY_EMAIL = 'example@gmail.com'
