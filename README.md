@@ -3,6 +3,7 @@ This is a iss_overhead_reminder by Python. To use, 'smtplib' library installatio
 
 ## Function
 - Send mail automatically to the designated person whose area is being passed through by ISS.
+- This program checks if iss is overhead or not every 60 seconds unless you stop the program.
 
 ## Setup
 - Set the latitude and longitude of your living area (c.f., https://www.latlong.net/)
